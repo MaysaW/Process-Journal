@@ -109,6 +109,8 @@ body h1 {
     min-width: 100%; 
     min-height: 100%;
     z-index: -1;
+    filter: brightness(65%);
+
 }
 
 .full-page-bg {
@@ -1070,3 +1072,140 @@ span.img-caption{
 }
 
 /* end of navigate tabs */
+
+/*PORTFOLIO CSS */
+.portfolio-top-image {
+	width: 100%;
+	height: auto;
+	border-radius: 0;
+}
+
+
+.infosection {
+	background-color: #086179;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.infosection2 {
+	background-color: #f9f9f9;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.centerblock {
+	margin: auto;
+	width: 55%;
+}
+
+.centerblock p {
+	font-family: 'Lato', Sans-Serif;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: justify ;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.centerblock2 p {
+	font-family: 'Lato', Sans-Serif;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: justify ;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+}
+
+
+.centerblock3 p {
+	font-family: 'Lato', Sans-Serif;
+	padding: 5%;
+	text-align: justify;
+	color: #414042;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.centerblock3 ul {
+	font-family: 'Lato', Sans-Serif;
+	padding: 5%;
+	text-align: justify;
+	color: #414042;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+	list-style: none;
+}
+
+.centerblock3 ul b {
+	font-size: 20px;
+}
+
+.centerblock3 h3 {
+	font-family: 'Lato', Sans-Serif;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-bottom:0;
+	text-align: justify ;
+	color: #414042;
+	font-weight: 400;
+	margin: 0;
+}
+
+.centerblock2 h3 {
+	font-family: 'Lato', Sans-Serif;
+	padding-top: 5%;
+	padding-bottom:0;
+	text-align: justify ;
+	color: #ffffff;
+	font-weight: 400;
+	margin: 0;
+}
+
+
+.problems li {
+	font-family: 'Lato', Sans-Serif;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.problems {
+	padding-bottom:5%;
+}
+
+#containerpadding {
+	margin:0;
+	max-width: 100%;
+}
+
+#carousel3 {
+	padding-top: 5%;
+	padding-left: 0;
+}
+
+#carousel3 img {
+	height: 600px !important;
+	width: 100%
+}
+
+.infosection2 iframe {
+	margin: auto;
+	padding: 5%;
+}
+
+#portfoliofooter {
+	margin-top: 0;
+	background-color: #086179;
+}
+
+#portfoliofooter p {
+	color:#ffffff;
+}
